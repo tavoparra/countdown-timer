@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.Countdown-timer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+}
+
+.Countdown-timer .Block {
+  border: 1px solid #AA9E9E;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+
+.Countdown-timer .Block .Number {
+  color: #1B1C1D;
+  font-size: 2.5em;
+}
+
+.Countdown-timer .Block .Label {
+  font-size: .7em;
+  font-weight: bold;
+  color: #AA9E9E;
+}
